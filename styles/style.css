@@ -110,7 +110,7 @@
 .digits {
   margin: 100px auto 100px auto;
 }
-.digits__title {
+.digits-title {
   width: 60%;
   margin: auto auto 20px auto;
   text-align: center;
@@ -118,7 +118,7 @@
   font-size: 60px;
   font-weight: bold;
 }
-.digits__subtitle {
+.digits-subtitle {
   width: 60%;
   margin: auto;
   text-align: center;
@@ -201,6 +201,7 @@
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -210,21 +211,24 @@
   margin-top: 80px;
   padding-right: 20px;
 }
-.kaufman__title {
+.section-title__theme_dark {
   width: 60%;
   margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
+  color: white;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
 }
-.kaufman__subtitle {
+
+.section-subtitle__theme_dark {
   width: 60%;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  color: white;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -239,18 +243,13 @@
   background-size: contain;
   background-position: center;
   overflow: hidden;
+  z-index: -1;
 }
 .footer {
   background-color: #1f1f1f;
   min-height: 350px;
   box-sizing: border-box;
 }
-.logo_place_footer {
-  margin-top: 0;
-  margin-left: 0;
-  height: 35px;
-}
-
 .footer__columns{
   display: flex;
   justify-content: space-between;
@@ -260,11 +259,18 @@
   width: 90%;
   color: white;
 }
+.footer__column {
+  flex-basis: 711px;
+}
 .footer__column__content_copiright {
   display: flex;
-  flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
+}
+.logo_place_footer {
+  margin-top: 0;
+  margin-left: 0;
+  height: 35px;
 }
 .footer__author {
   margin-top: 18px;
@@ -274,6 +280,7 @@
 }
 
 .footer__column__content_info {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
@@ -286,6 +293,7 @@
 .footer__column__content_social {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }
 .footer__column-heading {
   line-height: 30px;
@@ -311,7 +319,7 @@
   font-weight: normal;
   /*border: 1px solid red;*/
 }
-.social-icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
