@@ -1,0 +1,15 @@
+.cards__item {
+  width: 240px;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 60px;
+  /*border: 1px solid red;*/
+}
+.cards__item:nth-child(2) {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.cards__item:nth-child(5) {
+  margin-left: 100px;
+  margin-right: 100px;
+}

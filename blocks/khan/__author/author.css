@@ -1,0 +1,8 @@
+/*Высота строки 42px, шрифта 30px, начертание шрифта нормальное*/
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+  /*border: solid red 1px;*/
+}
