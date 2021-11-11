@@ -3,8 +3,9 @@
   box-sizing: border-box;
   margin: 0;
   margin-bottom: 60px;
-  /*border: 1px solid red;*/
+  list-style-type: none;
 }
+
 .cards__item:nth-child(2) {
   margin-left: 100px;
   margin-right: 100px;
@@ -13,3 +14,4 @@
   margin-left: 100px;
   margin-right: 100px;
 }
+

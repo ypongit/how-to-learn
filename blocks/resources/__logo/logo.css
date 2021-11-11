@@ -1,6 +1,12 @@
 .resources__logo {
   display: flex;
   width: 270px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
   height: 38px;
   justify-content: center;
+}
+.resources__logo:hover {
+  background-color: #1f1f1f;
 }
