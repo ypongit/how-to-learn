@@ -8,12 +8,12 @@
 * Элементы анимации и трансформации.
 * Внедрение на страницу медиаконтента (iframe).
 * API YouTube
-##Инструкция по запуску.
-* Создать папку и перейти в нее:
+## Инструкция по запуску.
+1. Создать папку и перейти в нее:
  mkdir how-to-learn && cd how-to-learn
-* Склонировать репозиторий во вновь созданную папку:
+2. Склонировать репозиторий во вновь созданную папку:
 git clone git@github.com:ypongit/how-to-learn.git
-* Запустить файл index.html:
+3. Запустить файл index.html:
 start index.html
 ## Ссылка на GitHub Pages
 [Ссылка на код](https://github.com/ypongit/how-to-learn)  
